@@ -3,12 +3,21 @@
   "description": "Test Automation Project for UiPath Test Suite Demo",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.DataService.Activities": "[21.10.1]",
     "UiPath.System.Activities": "[22.4.0]",
     "UiPath.Testing.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.2-preview]"
+    "UiPath.UIAutomation.Activities": "[22.4.2-preview]",
+    "UiPath.WebAPI.Activities": "[1.11.1]"
   },
   "webServices": [],
-  "entitiesStores": [],
+  "entitiesStores": [
+    {
+      "serviceDocument": ".entities/EntitiesStore.json",
+      "tenantName": "UiPath_Columbus_Chapter_Tenant",
+      "namespace": "UiPathTestSuiteDemo",
+      "uniqueReference": "232nM2C4EEce+2ZHvoK4wuISrOfVCkWujplZ6BDqUAU="
+    }
+  ],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.0.0",
   "projectVersion": "1.0.0",
@@ -40,10 +49,10 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "0fa22a73-9be9-42a3-9a37-310b1b4242eb",
+        "editingStatus": "Publishable",
+        "testCaseId": "fb0a3399-e4b5-4483-b1f0-046061828882",
         "testCaseType": "TestCase",
-        "fileName": "TestCase.xaml"
+        "fileName": "TestCase\\API\\VerifyPassengerCreationFailed.xaml"
       }
     ],
     "modernBehavior": true
