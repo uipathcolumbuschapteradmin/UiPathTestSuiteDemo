@@ -53,6 +53,18 @@
         "testCaseId": "fb0a3399-e4b5-4483-b1f0-046061828882",
         "testCaseType": "TestCase",
         "fileName": "TestCase\\API\\VerifyPassengerCreationFailed.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0abc7ce6-afac-4d44-a742-725d1878b789",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase\\UiBank\\VerifyNewAccountCreatedSuccessfully.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d3ae52b5-930b-4427-9570-1e4ece1d892c",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase\\API\\VerifyAirlineDetailsSuccessfulMatch.xaml"
       }
     ],
     "modernBehavior": true
