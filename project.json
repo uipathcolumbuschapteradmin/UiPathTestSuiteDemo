@@ -63,6 +63,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "d3ae52b5-930b-4427-9570-1e4ece1d892c",
+        "dataVariationFilePath": ".variations\\AirlineTestData_Sheet1.json",
         "testCaseType": "TestCase",
         "fileName": "TestCase\\API\\VerifyAirlineDetailsSuccessfulMatch.xaml"
       }
